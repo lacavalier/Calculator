@@ -1,0 +1,32 @@
+#wrapper {
+  margin: 0;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid grey;
+  max-width: 313px;
+  height: fit-content;
+  box-sizing: content-box;
+  display: flex;
+  flex-wrap: wrap;
+  vertical-align: bottom;
+}
+
+#wrapper > div {
+  border: 1px solid blue;
+  background-color: rgb(136, 129, 129);
+  font-size: 40px;
+  width: 75px;
+  height: 75px;
+  border-radius: 3%;
+  cursor: pointer;
+  text-align: center;
+}
+
+#result {
+  width: 307px !important;
+  height: 70px !important;
+  font-size: 40px !important;
+  background-color: rgb(246, 246, 237) !important;
+  margin-bottom: 4px;
+  text-align: right !important;
+}
